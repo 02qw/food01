@@ -3,9 +3,34 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="?attr/colorControlNormal">
+    android:viewportHeight="24">
+    <!-- 外框 -->
     <path
-        android:fillColor="@android:color/white"
-        android:pathData="M11,9L9,9L9,2L7,2v7L5,9L5,2L3,2v7c0,2.12 1.66,3.84 3.75,3.97L6.75,22h2.5v-9.03C11.34,12.84 13,11.12 13,9L13,2h-2v7zM16,6v8h2.5v8L21,22L21,2c-2.76,0 -5,2.24 -5,4z"/>
+        android:fillColor="#2196F3"
+        android:pathData="M21,2H3C1.9,2,1,2.9,1,4v16c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2V4C23,2.9,22.1,2,21,2z M21,20H3V4h18V20z"/>
+    
+    <!-- 中心圆形 -->
+    <path
+        android:fillColor="#03A9F4"
+        android:pathData="M12,6c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S14.8,6,12,6z M12,14c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S13.7,14,12,14z"/>
+    
+    <!-- 左上角装饰 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M6,7H4v2h2V7z"/>
+    
+    <!-- 右上角装饰 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M20,7h-2v2h2V7z"/>
+    
+    <!-- 左下角装饰 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M6,15H4v2h2V15z"/>
+    
+    <!-- 右下角装饰 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M20,15h-2v2h2V15z"/>
 </vector> 

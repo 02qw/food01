@@ -89,18 +89,8 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.Re
             tvDeliveryFee.setText(restaurant.getDeliveryFee());
             tvPromotion.setText(restaurant.getPromotion());
 
-            // 加载图片
-            try {
-                String imageUrl = restaurant.getImageUrl();
-                if (imageUrl != null) {
-                    int resourceId = Integer.parseInt(imageUrl);
-                    ivRestaurant.setImageResource(resourceId);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-                // 设置默认图片
-                ivRestaurant.setImageResource(R.drawable.ic_restaurant_default);
-            }
+            // 使用统一的图片加载方法
+            ivRestaurant.setImageResource(restaurant.getImageResourceId(itemView.getContext()));
         }
     }
 } 

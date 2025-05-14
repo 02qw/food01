@@ -266,22 +266,14 @@ public class RestaurantDetailFragment extends Fragment {
             binding.tvDeliveryFee.setText(restaurant.getDeliveryFee());
             binding.tvPromotion.setText(restaurant.getPromotion());
 
-            // 加载商家图片
-            String imageUrl = restaurant.getImageUrl();
-            if (imageUrl != null && imageUrl.startsWith("drawable/")) {
-                String resourceName = imageUrl.substring("drawable/".length());
-                int resourceId = getContext().getResources().getIdentifier(
-                        resourceName, "drawable", getContext().getPackageName());
-                if (resourceId != 0) {
-                    binding.ivRestaurantCover.setImageResource(resourceId);
-                } else {
-                    Log.e(TAG, "Resource not found: " + resourceName);
-                }
-            } else {
-                Log.e(TAG, "Invalid image URL: " + imageUrl);
-            }
+            // 使用统一的图片加载方法
+            binding.ivRestaurantCover.setImageResource(restaurant.getImageResourceId(getContext()));
         } catch (Exception e) {
             Log.e(TAG, "Error in updateUI", e);
+            if (getContext() != null) {
+                Toast.makeText(getContext(), "加载商家信息失败", Toast.LENGTH_SHORT).show();
+            }
+            navigateBack();
         }
     }
 

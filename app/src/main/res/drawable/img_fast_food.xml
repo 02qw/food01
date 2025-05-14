@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="200dp"
-    android:height="200dp"
-    android:viewportWidth="1000"
-    android:viewportHeight="1000">
-
-    <!-- 背景 -->
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 汉堡包主体 -->
     <path
-        android:fillColor="#FFF8E1"
-        android:pathData="M0,0h1000v1000h-1000z"/>
-
-    <!-- 底部面包 -->
+        android:fillColor="#FF8A65"
+        android:pathData="M21.9,5.6l-0.5-3.5C21.2,1,20.3,0.3,19.2,0.5l-2.5,0.4c-0.9,0.1-1.6,0.8-1.7,1.7l-0.3,2.4h-5.4C8.1,5,7,6.1,7,7.5
+        v1.9c0,0.8,0.4,1.5,1,2v10.1C8,22.3,8.7,23,9.5,23h9c0.8,0,1.5-0.7,1.5-1.5V11.4c0.6-0.4,1-1.2,1-2V7.5c0-0.8-0.4-1.5-1-2L21.9,5.6z"/>
+    
+    <!-- 汉堡包内部 -->
     <path
-        android:fillColor="#F57C00"
-        android:pathData="M200,600 C200,600 500,700 800,600 L800,800 C800,800 500,850 200,800 Z"/>
-
-    <!-- 生菜 -->
+        android:fillColor="#FFA726"
+        android:pathData="M17,3.2l2.5-0.4l0.5,3.5l-2.5,0.4L17,3.2z M18.5,21.5h-9V11.5h9V21.5z M19,9.4c0,0.3-0.2,0.5-0.5,0.5h-9C9.2,9.9,9,9.7,9,9.4V7.5
+        C9,7.2,9.2,7,9.5,7h9C18.8,7,19,7.2,19,7.5V9.4z"/>
+    
+    <!-- 饮料 -->
     <path
         android:fillColor="#4CAF50"
-        android:pathData="M220,580 C220,580 500,650 780,580 C780,580 500,450 220,580"/>
-
-    <!-- 肉饼 -->
+        android:pathData="M3,3v7c0,1.1,0.9,2,2,2h2v9c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1v-9h2c1.1,0,2-0.9,2-2V3c0-0.6-0.4-1-1-1H4C3.4,2,3,2.4,3,3z"/>
+    
+    <!-- 吸管 -->
     <path
-        android:fillColor="#795548"
-        android:pathData="M250,450 C250,450 500,500 750,450 C750,450 500,350 250,450"/>
-
-    <!-- 芝士片 -->
-    <path
-        android:fillColor="#FFC107"
-        android:pathData="M230,430 C230,430 500,480 770,430 C770,430 500,380 230,430"/>
-
-    <!-- 顶部面包 -->
-    <path
-        android:fillColor="#F57C00"
-        android:pathData="M200,200 C200,200 500,150 800,200 L800,400 C800,400 500,350 200,400 Z"/>
-
-    <!-- 芝麻装饰 -->
-    <path
-        android:fillColor="#8D6E63"
-        android:pathData="M300,180 L310,190 M400,170 L410,180 M500,160 L510,170 M600,170 L610,180 M700,180 L710,190"/>
+        android:fillColor="#FFEB3B"
+        android:pathData="M5,8V4h6v4H5z"/>
 </vector> 

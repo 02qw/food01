@@ -1,5 +1,8 @@
 package com.example.food01.model;
 
+import android.content.Context;
+import com.example.food01.R;
+
 /**
  * 餐厅实体类
  */
@@ -48,6 +51,27 @@ public class Restaurant {
     public void setDeliveryFee(String deliveryFee) { this.deliveryFee = deliveryFee; }
     public void setPromotion(String promotion) { this.promotion = promotion; }
     public void setCategoryId(int categoryId) { this.categoryId = categoryId; }
+
+    /**
+     * 获取图片资源ID
+     * @param context 上下文
+     * @return 资源ID，如果获取失败则返回默认图片资源ID
+     */
+    public int getImageResourceId(Context context) {
+        try {
+            if (imageUrl != null && imageUrl.startsWith("drawable/")) {
+                String resourceName = imageUrl.substring("drawable/".length());
+                int resourceId = context.getResources().getIdentifier(
+                    resourceName, "drawable", context.getPackageName());
+                if (resourceId != 0) {
+                    return resourceId;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return R.drawable.ic_restaurant_default;
+    }
 
     @Override
     public boolean equals(Object o) {

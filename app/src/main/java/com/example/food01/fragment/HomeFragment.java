@@ -131,27 +131,63 @@ public class HomeFragment extends Fragment implements CategoryAdapter.OnCategory
         categories.add(new Category(2, "火锅", "drawable/img_hotpot"));
         categories.add(new Category(3, "烧烤", "drawable/img_bbq"));
         categories.add(new Category(4, "饮品", "drawable/img_drinks"));
-        categories.add(new Category(0, "全部", "drawable/img_all")); // 添加"全部"分类，使用ID 0
+        categories.add(new Category(0, "全部", "drawable/img_all")); // 添加"全部"分类
         categoryAdapter.updateData(categories);
 
         // 加载商家数据
-        allRestaurants = new ArrayList<>(); // 初始化allRestaurants
+        allRestaurants = new ArrayList<>();
         
         // 快餐类商家
-        allRestaurants.add(new Restaurant(1, "老王炸鸡", "drawable/img_fried_chicken",
-                4.8f, 328, "30-40分钟", "配送费¥5", "满38减15", 1)); // 添加分类ID
+        allRestaurants.add(new Restaurant(
+            1, 
+            "老王炸鸡", 
+            "drawable/img_fast_food",
+            4.8f, 
+            328, 
+            "30-40分钟", 
+            "配送费¥5", 
+            "满38减15", 
+            1
+        ));
                 
         // 火锅类商家
-        allRestaurants.add(new Restaurant(2, "川味小炒", "drawable/img_hotpot",
-                4.7f, 456, "40-50分钟", "配送费¥6", "满100减20", 2));
+        allRestaurants.add(new Restaurant(
+            2, 
+            "川味小炒", 
+            "drawable/img_hotpot",
+            4.7f, 
+            456, 
+            "40-50分钟", 
+            "配送费¥6", 
+            "满100减20", 
+            2
+        ));
                 
         // 烧烤类商家
-        allRestaurants.add(new Restaurant(3, "老街烧烤", "drawable/img_bbq",
-                4.5f, 234, "35-50分钟", "配送费¥5", "满50减12", 3));
+        allRestaurants.add(new Restaurant(
+            3, 
+            "老街烧烤", 
+            "drawable/img_bbq",
+            4.5f, 
+            234, 
+            "35-50分钟", 
+            "配送费¥5", 
+            "满50减12", 
+            3
+        ));
                 
         // 饮品类商家
-        allRestaurants.add(new Restaurant(4, "甜蜜奶茶", "drawable/img_drinks",
-                4.8f, 567, "15-25分钟", "配送费¥3", "满20减5", 4));
+        allRestaurants.add(new Restaurant(
+            4, 
+            "甜蜜奶茶", 
+            "drawable/img_drinks",
+            4.8f, 
+            567, 
+            "15-25分钟", 
+            "配送费¥3", 
+            "满20减5", 
+            4
+        ));
                 
         restaurantAdapter.setRestaurants(new ArrayList<>(allRestaurants)); // 显示所有商家
     }

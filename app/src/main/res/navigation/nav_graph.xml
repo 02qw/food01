@@ -3,7 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/restaurantListFragment">
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.food01.fragment.HomeFragment"
+        android:label="首页">
+        <action
+            android:id="@+id/action_home_to_restaurant_detail"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/restaurantListFragment"
@@ -18,12 +27,19 @@
     <fragment
         android:id="@+id/restaurantDetailFragment"
         android:name="com.example.food01.fragment.RestaurantDetailFragment"
-        android:label="餐厅详情"
-        tools:layout="@layout/fragment_restaurant_detail">
+        android:label="商家详情">
         <argument
             android:name="restaurantId"
-            app:argType="integer"
-            android:defaultValue="-1" />
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.food01.fragment.CartFragment"
+        android:label="购物车">
+        <action
+            android:id="@+id/action_cart_to_orders"
+            app:destination="@id/orderFragment" />
     </fragment>
 
     <fragment

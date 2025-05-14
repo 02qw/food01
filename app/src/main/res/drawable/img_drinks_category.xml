@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 果汁杯 -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M5,2L3,6v14c0,1.1,0.9,2,2,2h6c1.1,0,2-0.9,2-2V6L11,2H5z M11,20H5V8h6V20z"/>
+    
+    <!-- 果汁 -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M10,9H6v10h4V9z"/>
+    
+    <!-- 冰块 -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M7,10h2v2h-2z"/>
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M8,13h2v2h-2z"/>
+
+    <!-- 奶茶杯 -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M13,4v2l1,14c0.1,1.1,1,2,2.1,2h0.9c1.1,0,2-0.9,2.1-2l1-14v-2H13z M18.8,20H15.2l-0.9-12h5.3L18.8,20z"/>
+    
+    <!-- 奶茶 -->
+    <path
+        android:fillColor="#E1BEE7"
+        android:pathData="M15.5,9h3v10h-3z"/>
+    
+    <!-- 吸管 -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M17,6L17,18"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF4081"
+        android:strokeLineCap="round"/>
+    
+    <!-- 装饰 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M6,3h4v1h-4z"/>
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M14,5h6v1h-6z"/>
+</vector> 
