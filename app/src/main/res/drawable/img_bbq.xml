@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+
+    <!-- 背景 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h1000v1000h-1000z"/>
+
+    <!-- 烧烤架 -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M200,300h600v50h-600z M200,700h600v50h-600z"/>
+
+    <!-- 支架 -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M250,350v350h50v-350z M700,350v350h50v-350z"/>
+
+    <!-- 烤串1 -->
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M300,400h400v30h-400z"/>
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M350,385a15,15 0 1,1 0,60 M450,385a15,15 0 1,1 0,60 M550,385a15,15 0 1,1 0,60 M650,385a15,15 0 1,1 0,60"/>
+
+    <!-- 烤串2 -->
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M300,500h400v30h-400z"/>
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M350,485a15,15 0 1,1 0,60 M450,485a15,15 0 1,1 0,60 M550,485a15,15 0 1,1 0,60 M650,485a15,15 0 1,1 0,60"/>
+
+    <!-- 火焰 -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M400,600c0,0 20,-30 40,0c20,-30 40,0 40,0c20,-30 40,0 40,0"/>
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M420,580c0,0 20,-30 40,0c20,-30 40,0 40,0"/>
+</vector> 

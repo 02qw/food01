@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+    
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="@color/primary_light"
+        android:pathData="M500,500m-450,0a450,450 0,1 1,900 0a450,450 0,1 1,-900 0"/>
+    
+    <!-- 四个小方块组成的网格 -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M300,300h150v150h-150z"/>
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M550,300h150v150h-150z"/>
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M300,550h150v150h-150z"/>
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M550,550h150v150h-150z"/>
+</vector> 

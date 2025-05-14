@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+
+    <!-- 背景 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h1000v1000h-1000z"/>
+
+    <!-- 杯身 -->
+    <path
+        android:fillColor="#FFECB3"
+        android:pathData="M300,200 L400,800 L600,800 L700,200 Z"/>
+
+    <!-- 奶茶 -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M320,250 L410,780 L590,780 L680,250 Z"/>
+
+    <!-- 珍珠 -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M400,400a20,20 0 1,1 0,40 M500,450a20,20 0 1,1 0,40 M450,550a20,20 0 1,1 0,40 M550,500a20,20 0 1,1 0,40"/>
+
+    <!-- 吸管 -->
+    <path
+        android:fillColor="#F48FB1"
+        android:pathData="M450,150 L500,150 L500,500 L450,500 Z"/>
+
+    <!-- 杯盖 -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M280,200 C280,200 500,250 720,200 C720,200 500,150 280,200"/>
+
+    <!-- 奶霜 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M350,280 C350,280 500,320 650,280 C650,280 500,240 350,280"/>
+</vector> 

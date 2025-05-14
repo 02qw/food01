@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+    
+    <!-- 背景 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h1000v1000h-1000z"/>
+    
+    <!-- 托盘 -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M150,700h700v50h-700z"/>
+    
+    <!-- 炸鸡腿1 -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M300,400c-20,-30 -10,-80 30,-100c40,-20 90,-10 110,20c20,30 60,150 60,150l-120,60c0,0 -60,-100 -80,-130z"/>
+    
+    <!-- 炸鸡腿1的酥皮纹理 -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M320,380c0,0 40,-20 70,-10c30,10 50,40 50,40"/>
+
+    <!-- 炸鸡腿2 -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M500,350c-30,-20 -20,-70 20,-90c40,-20 90,0 110,30c20,30 40,140 40,140l-110,50c0,0 -40,-110 -60,-130z"/>
+
+    <!-- 薯条 -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M650,400l30,-120l20,0l-20,120z
+                         M700,400l20,-110l20,0l-10,110z
+                         M750,400l10,-100l20,0l0,100z"/>
+
+    <!-- 可乐杯 -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M800,500l-60,-200l120,0l-60,200z"/>
+    
+    <!-- 可乐杯纹理 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M800,400c0,0 -20,-60 -10,-80c10,-20 20,-20 20,-20"/>
+
+    <!-- 吸管 -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M800,200l10,-50l10,0l-10,50z"/>
+</vector> 

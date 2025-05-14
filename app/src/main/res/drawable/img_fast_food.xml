@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+
+    <!-- 背景 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h1000v1000h-1000z"/>
+
+    <!-- 底部面包 -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M200,600 C200,600 500,700 800,600 L800,800 C800,800 500,850 200,800 Z"/>
+
+    <!-- 生菜 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M220,580 C220,580 500,650 780,580 C780,580 500,450 220,580"/>
+
+    <!-- 肉饼 -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M250,450 C250,450 500,500 750,450 C750,450 500,350 250,450"/>
+
+    <!-- 芝士片 -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M230,430 C230,430 500,480 770,430 C770,430 500,380 230,430"/>
+
+    <!-- 顶部面包 -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M200,200 C200,200 500,150 800,200 L800,400 C800,400 500,350 200,400 Z"/>
+
+    <!-- 芝麻装饰 -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M300,180 L310,190 M400,170 L410,180 M500,160 L510,170 M600,170 L610,180 M700,180 L710,190"/>
+</vector> 

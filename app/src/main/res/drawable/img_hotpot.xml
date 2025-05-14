@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+
+    <!-- 背景 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h1000v1000h-1000z"/>
+
+    <!-- 锅底 -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M200,300 C200,300 500,400 800,300 L850,700 C850,700 500,800 150,700 Z"/>
+
+    <!-- 锅沿 -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M150,300 C150,300 500,400 850,300 C850,300 500,200 150,300"/>
+
+    <!-- 汤底 -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M250,350 C250,350 500,425 750,350 L800,650 C800,650 500,725 200,650 Z"/>
+
+    <!-- 食材：肉片 -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M300,400 C300,400 320,380 340,400 M400,450 C400,450 420,430 440,450 M500,400 C500,400 520,380 540,400"/>
+
+    <!-- 食材：青菜 -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M600,420 C600,420 620,450 640,420 M450,500 C450,500 470,530 490,500"/>
+
+    <!-- 蒸汽 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M400,250 C400,250 420,200 440,250 M500,200 C500,200 520,150 540,200 M600,250 C600,250 620,200 640,250"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"/>
+</vector> 
